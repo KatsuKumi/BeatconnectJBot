@@ -1,0 +1,6 @@
+<settings>
+    <username>username</username>
+    <password>password</password>
+    <osuAPIKey>osu! API Key</osuAPIKey>
+    <beatconnectAPIKey>BeatConnect Key</beatconnectAPIKey>
+</settings>

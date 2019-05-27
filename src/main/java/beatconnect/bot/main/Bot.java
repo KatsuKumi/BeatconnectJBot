@@ -39,7 +39,8 @@ public class Bot {
     }
 
     public static void main(String[] args) {
-        BanchoClientBuilder builder = new BanchoClientBuilder("xxx", "xxx");
+        Settings settings = new Settings();
+        BanchoClientBuilder builder = new BanchoClientBuilder(settings.getUsername(), settings.getPassword());
         BanchoClient client = builder.build();
         client.addEventHandler((Event event) -> {
             if (event instanceof EventMessage) {
