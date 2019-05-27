@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="bancho-client_b1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/bancho-client_b1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/bancho-api_b1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
